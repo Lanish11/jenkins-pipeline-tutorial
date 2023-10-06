@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Lanish is Running the static analysis to the code' 
+                echo 'Lanish is running the static analysis to the code' 
             }
         }
         stage('Compile') {
