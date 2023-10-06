@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Lanish is Running the static analysis to the code' 
             }
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'Lanish is compiling the source code' 
             }
         }
         stage('Security Check') {
